@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
 }
 
+/* Hero Content */
 .herocontainer {
     background-color: #1F2937;
     height: 550px;
@@ -35,13 +36,13 @@ body {
     width: 500px;
 }
 
-/* Header logo */
-h2 {
+/* Hero header logo */
+h2.navbar {
     font-size: 24px;
     color: #f9FAF8;
 }
 
-/* Header links */
+/* Hero header links */
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -73,31 +74,28 @@ a {
     margin-left: 115px;
 }
 
-
 .imageplace {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-end;
-    /* height: 363px; */
     margin-right: 115px;
 }
 
-/* Bold main text */
-h1 {
+/* Hero bold main text */
+h1.hero {
     font: 48px bolder;
     color: #F9FAF8;
-    display: flex;
 }
 
-/* Light subtext */
-p {
+/* Hero light subtext */
+p.hero {
     font-size: 18px;
     color: #e5e7ebbe;
     width: 450px;
-    display: flex;
 }
 
-img {
+/* Hero image */
+img.hero {
     width: 500px;
     height: auto;
 }
@@ -110,4 +108,74 @@ img {
     border-radius: 6px;
     padding: 12px 20px;
     font-size: 15px;
+}
+
+/* Middle Content */
+
+.midcontainer {
+    background-color: white;
+    height: 400px;
+    /* border-top: 25px;
+    display: flex;
+    align-items: center; */
+}
+
+.midheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Middle header bold text */
+h1.middle {
+    font: 36px bolder;
+    color: #1F2937;
+}
+
+/* Image boxes */
+.boxwrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: 175px;
+    border: solid 5px #3882F6;
+    border-radius: 25px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+/* Information section text */
+.textwrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 1020px;
+    margin-top: -40px;
+}
+
+.subtext1,
+.subtext2,
+.subtext3,
+.subtext4 {
+    display: flex;
+    padding: 10px;
+    height: auto;
+    width: 175px;
+    text-align: center;
+    font-size: 18px;
+    color: #707070;
 }
