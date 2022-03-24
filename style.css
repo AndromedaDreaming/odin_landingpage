@@ -208,3 +208,57 @@ h3.author {
     text-align: end;
     margin-top: -36px;
 }
+
+/* Call to action section */
+.ctacontainer {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 25px;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.ctawrapper {
+   margin-top: 60px;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+.ctamain {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctasub {
+    display: flex;
+}
+
+.ctabutton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -60px;
+}
+
+/* Call to action text */
+h1.ctatime {
+    font-size: 20px;
+    color: white;
+}
+
+p.ctatext {
+    color: white;
+    margin-top: -16px;
+}
+
+/* Call to action button */
+.signup2 {
+    display: flex;
+    background-color: #3882F6;
+    border: solid 1px white;
+    color: white;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 15px;
+}
