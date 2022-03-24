@@ -262,3 +262,19 @@ p.ctatext {
     padding: 12px 20px;
     font-size: 15px;
 }
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    height: 120px;
+}
+
+p.footer1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
